@@ -104,7 +104,7 @@ header nav .nav-list .nav-list-wrapper ul {
 @media (min-width: 992px) {
   header nav .nav-list .nav-list-wrapper ul {
     padding: 0;
-    width: 425px;
+    width: 536px;
     text-align: left;
   }
 }
@@ -243,6 +243,12 @@ header .hero .img-hero {
 header .hero .img-hero img {
   width: 100%;
   max-width: 530px;
+}
+
+@media (min-width: 992px) {
+  header .hero .img-hero img {
+    max-width: 700px;
+  }
 }
 
 header .hero .headline {

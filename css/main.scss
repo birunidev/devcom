@@ -124,7 +124,7 @@ header {
 
                     @include desktop {
                         padding: 0;
-                        width: 425px;
+                        width: 536px;
                         text-align: left;
 
                     }
@@ -247,9 +247,15 @@ header {
             height: auto;
             overflow: hidden;
 
+
+
             img {
                 width: 100%;
                 max-width: 530px;
+
+                @include desktop {
+                    max-width: 700px;
+                }
             }
         }
 
